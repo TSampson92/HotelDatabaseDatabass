@@ -48,7 +48,7 @@ Bed_type VARCHAR(50),
 Smoking_status VARCHAR(5),
 primary key(Room_num),
 CONSTRAINT roomNo_range CHECK (Room_Num BETWEEN 1 and 999),
-CONSTRAINT bedType CHECK (Bed_type IN('King','Queen','Twin','Double'),
+CONSTRAINT bedType CHECK (Bed_type IN('King','Queen','Twin','Full'),
 CONSTRAINT Smoking_status CHECK (Smoking_status IN('s', 'n/s'));
 
 CREATE TABLE CONFERENCE_ROOM 
