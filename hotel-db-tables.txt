@@ -1,0 +1,93 @@
+CREATE TABLE EMPLOYEE 
+(FName VARCHAR(50) NOT NULL,
+LastName VARCHAR(50) NOT NULL,
+E_ID CHAR(5) NOT NULL,
+Manager_ID VARCHAR(9) NOT NULL,
+Dep_ID INT NOT NULL,
+Address VARCHAR(50),
+Position VARCHAR(50) NOT NULL,
+Salary (18,2),
+primary key(E_ID),
+FOREIGN KEY(Manager_ID) REFERENCES EMPLOYEE(E_ID),
+FOREIGN KEY(Dep_ID) REFERENCES DEPARTMENT(DEP_ID));
+
+CREATE TABLE DEPARTMENT 
+(Name VARCHAR(50) NOT NULL,
+Dep_ID INT NOT NULL,
+NUM_employees INT NOT NULL,
+Dep_Head VARCHAR(9) NOT NULL
+primary key(Dep_ID),
+FOREIGN KEY(Dep_Head) REFERENCES EMPLOYEE(Manager_ID));
+
+CREATE TABLE DEPARTMENT_SERVICES_ROOM
+(Dep_ID INT NOT NULL,
+Room_Num INT NOT NULL,
+primary key(Dep_ID,Room_Num),
+FOREIGN KEY(DEP_ID) REFERENCES DEPARTMENT(DEP_ID),
+FOREIGN KEY(Room_Num) REFERENCES GUEST_ROOM(Room_num),
+FOREIGN KEY(Room_Num) REFERENCES CONFERENCE_ROOM(CR_Number));
+
+
+CREATE TABLE GUEST_ROOM
+(Room_Num INT NOT NULL,
+Num_beds INT NOT NULL,
+Bed_type VARCHAR(50),
+Smoking_status VARCHAR(5),
+primary key(Room_num),
+CONSTRAINT roomNo_range CHECK (Room_Num BETWEEN 1 and 999),
+CONSTRAINT bedType CHECK (Bed_type IN('King','Queen','Twin','Double'),
+CONSTRAINT Smoking_status CHECK (Smoking_status IN('s', 'n/s'));
+
+CREATE TABLE CONFERENCE_ROOM 
+(CR_Number VARCHAR(3) NOT NULL,
+Is_Booked CHAR(1) DEFAULT 'n', 
+primary key(CR_Number),
+CONSTRAINT booked_status CHECK (Is_Booked IN('y','n'));
+
+CREATE TABLE RESERVATION 
+(Reservation_ID VARCHAR(10) NOT NULL,
+G_Name VARCHAR(50) NOT NULL,
+Room_Number INT NOT NULL,
+Number_Of_Guests INT DEFAULT 1,
+Start_date DATE NOT NULL,
+End_Date DATE NOT NULL,
+G_Email VARCHAR(50) NOT NULL,
+primary key(Reservation_ID,G_Name,Room_Number,G_Email),
+FOREIGN KEY(G_NAME) REFERENCES GUEST(G_NAME)ON DELETE CASCADE,
+FOREIGN KEY(Room_Number) REFERENCES CONFERENCE_ROOM(CR_Number),
+FOREIGN KEY(Room_Number) REFERENCES GUEST_ROOM(Room_Num) ,
+FOREIGN KEY(G_Email) REFERENCES GUEST(Email)ON DELETE CASCADE,
+CONSTRAINT date_order CHECK (Start_date < End_Date));
+
+
+CREATE TABLE MEMBERSHIP 
+(G_email VARCHAR(50) NOT NULL,
+G_name VARCHAR(50) NOT NULL,
+member_ID VARCHAR(9) NOT NULL,
+member_status VARCHAR(10) DEFAULT 'Bronze',
+member_since DATE,
+primary key G_email,G_name,member_ID),
+FOREIGN KEY(G_email,G_name) REFERENCES GUEST(Email,G_name),
+CONSTRAINT member_status CHECK (member_status IN('Gold', 'Silver', 'Bronze')); 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
