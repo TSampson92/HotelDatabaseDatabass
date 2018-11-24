@@ -1,157 +1,158 @@
-Hannah Abbott
-Ludo Bagman
-Bathilda Bagshot
-Katie Bell
-Cuthbert Binns
-Phineas Black
-Sirius Black
-Amelia Bones
-Susan Bones
-Terry Boot
-Lavender Brown
-Millicent Bulstrode
-Charity Burbage
-Frank Bryce
-Alecto Carrow
-Amycus Carrow
-Reginald Cattermole
-Mary Cattermole
-Cho Chang
-Penelope Clearwater
-Michael Corner
-Vincent Crabbe
-Colin Creevey
-Dennis Creevey
-Dirk Cresswell
-Barty Crouch
-Bartemius Crouch
-Roger Davies
-Fleur Delacour
-Gabrielle Delacour
-Dedalus Diggle
-Amos Diggory
-Cedric Diggory
-Elphias Doge
-Antonin Dolohov
-Aberforth Dumbledore
-Albus Dumbledore
-Dudley Dursley
-Marge Dursley
-Petunia Dursley
-Vernon Dursley
-Marietta Edgecombe
-Arabella Figg
-Argus Filch
-Justin Finch-Fletchley
-Seamus Finnigan
-Marcus Flint
-Mundungus Fletcher
-Filius Flitwick
-Florean Fortescue
-Cornelius Fudge
-Marvolo Gaunt
-Merope Gaunt
-Morfin Gaunt
-Anthony Goldstein
-Gregory Goyle
-Hermione Granger
-Gregorovitch
-Fenrir Greyback
-Gellert Grindelwald
-Wilhelmina Grubbly-Plank
-Godric Gryffindor
-Rubeus Hagrid
-Rolanda Hooch
-Mafalda Hopkirk
-Angelina Johnson
-Lee Jordan
-Bertha Jorkins
-Igor Karkaroff
-Viktor Krum
-Silvanus Kettleburn
-Bellatrix Lestrange
-Rabastan Lestrange
-Rodolphus Lestrange
-Gilderoy Lockhart
-Alice Longbottom 
-Frank Longbottom
-Augusta Longbottom
-Neville Longbottom
-Luna Lovegood
-Xenophilius Lovegood
-Remus Lupin
-Walden Macnair
-Draco Malfoy
-Lucius Malfoy
-Narcissa Malfoy
-Madam Malkin
-Griselda Marchbanks
-Olympe Maxime
-Ernie Macmillan
-Minerva McGonagall
-Cormac McLaggen
-Graham Montague
-Alastor Moody
-Theodore Nott
-Bob Ogden
-Garrick Ollivander
-Pansy Parkinson
-Padma Patil
-Parvati Patil
-Peter Pettigrew
-Antioch Peverell
-Cadmus Peverell
-Ignotus Peverell
-Irma Pince
-Sturgis Podmore
-Poppy Pomfrey
-Harry Potter
-James Potter
-Lily Potter
-Albus Potter
-Quirinus Quirrell
-Helena Ravenclaw
-Rowena Ravenclaw
-Tom Riddle
-Demelza Robins
-Augustus Rookwood
-Thorfinn Rowle
-Albert Runcorn
-Newt Scamander
-Rufus Scrimgeour
-Kingsley Shacklebolt
-Stan Shunpike
-Aurora Sinistra
-Rita Skeeter
-Horace Slughorn
-Salazar Slytherin
-Hepzibah Smith
-Zacharias Smith
-Severus Snape
-Alicia Spinnet
-Pomona Sprout
-Pius Thicknesse
-Dean Thomas
-Andromeda Tonks
-Nymphadora Tonks
-Ted Tonks
-Sybill Trelawney
-Wilkie Twycross
-Dolores Umbridge
-Emmeline Vance
-Romilda Vane
-Septima Vector
-Lord Voldemort
-Moaning Myrtle
-Arthur Weasley
-Bill Weasley
-Charlie Weasley
-Fred Weasley
-George Weasley
-Ginny Weasley
-Molly Weasley
-Percy Weasley
-Ron Weasley
-Oliver Wood
-Corban Yaxley
-Blaise Zabini
+
+Hannah Abbott habbott@hufflepuff.hogwarts.edu
+Ludo Bagman lbagman@ministryofmagic.gov
+Bathilda Bagshot bathilda@owlmail.com
+Katie Bell kbell@gryffindor.hogwarts.edu
+Cuthbert Binns cbinns@hogwarts.edu
+Phineas Black pnblack@hogwarts.edu
+Sirius Black padfoot@owlmail.com
+Amelia Bones abones@ministryofmagic.gov
+Susan Bones sbones@hufflepuff.hogwarts.edu
+Terry Boot tboot@ravenclaw.hogwarts.edu
+Lavender Brown lbrown@gryffindor.hogwarts.edu
+Millicent Bulstrode mbulstrode@slytherin.hogwarts.edu
+Charity Burbage cburbage@hogwarts.edu
+Frank Bryce fbryce@owlmail.com
+Alecto Carrow alecto@owlmail.com
+Amycus Carrow amycus@owlmail.com
+Reginald Cattermole rcattermole@ministryofmagic.gov
+Mary Cattermole mcattermole@owlmail.com
+Cho Chang cchang@ravenclaw.hogwarts.edu
+Penelope Clearwater pclearwater@ravenclaw.hogwarts.edu
+Michael Corner mcorner@ravenclaw.hogwarts.edu
+Vincent Crabbe vcrabbe@slytherin.hogwarts.edu
+Colin Creevey ccreevey@gryffindor.hogwarts.edu
+Dennis Creevey dcreevey@gryffindor.hogwarts.edu
+Dirk Cresswell dcresswell@ministryofmagic.gov
+Barty Crouch bcrouch@ministryofmagic.gov
+Bartemius Crouch bcrouchNOTmydad@owlmail.com
+Roger Davies rdavies@ravenclaw.hogwarts.edu
+Fleur Delacour fdelacour@beauxbatons.edu
+Gabrielle Delacour gdelacour@beauxbatons.edu
+Dedalus Diggle ddiggle@orderofthephoenix.org
+Amos Diggory adiggory@ministryofmagic.gov
+Cedric Diggory cdiggory@hufflepuff.hogwarts.edu
+Elphias Doge edoge@owlmail.com
+Antonin Dolohov adolohov@owlmail.com
+Aberforth Dumbledore aberforth@hogshead.com
+Albus Dumbledore adumbledore@hogwarts.edu
+Dudley Dursley ddursley@gmail.com
+Marge Dursley mdursley@gmail.com
+Petunia Dursley pdursley@gmail.com
+Vernon Dursley vdursley@gmail.com
+Marietta Edgecombe medgecombe@ravenclaw.hogwarts.edu
+Arabella Figg afigg@orderofthephoenix.org
+Argus Filch afilch@hogwarts.edu
+Justin Finch-Fletchley jfinch-fletchley@hufflepuff.hogwarts.edu
+Seamus Finnigan sfinnigan@gryffindor.hogwarts.edu
+Marcus Flint mflint@slytherin.hogwarts.edu
+Mundungus Fletcher mfletcher@orderofthephoenix.org
+Filius Flitwick fflitwick@hogwarts.edu
+Florean Fortescue ffortescue@diagonalley.com
+Cornelius Fudge cfudge@ministryofmagic.gov
+Marvolo Gaunt marvolo@owlmail.com
+Merope Gaunt merope@owlmail.com
+Morfin Gaunt morfin@owlmail.com
+Anthony Goldstein agoldstein@ravenclaw.hogwarts.edu
+Gregory Goyle ggoyle@slytherin.hogwarts.edu
+Hermione Granger hgranger@gryffindor.hogwarts.edu
+Fenrir Greyback fgreyback@owlmail.com
+Gellert Grindelwald ggrindelwald@owlmail.com
+Wilhelmina Grubbly-Plank wgrubbly-plank@hogwarts.edu
+Godric Gryffindor ggryffindor@hogwarts.edu
+Rubeus Hagrid rhagrid@hogwarts.edu
+Rolanda Hooch rhooch@hogwarts.edu
+Mafalda Hopkirk mhopkirk@ministryofmagic.gov
+Helga Hufflepuff hhufflepuff@hogwarts.edu
+Angelina Johnson ajohnson@gryffindor.hogwarts.edu
+Lee Jordan ljordan@gryffindor.hogwarts.edu
+Bertha Jorkins bjorkins@ministryofmagic.gov
+Igor Karkaroff ikarkaroff@durmstrang.edu
+Viktor Krum vkrum@durmstrang.edu
+Silvanus Kettleburn skettleburn@hogwarts.edu
+Bellatrix Lestrange bellatrix@owlmail.com
+Rabastan Lestrange rlestrange@owlmail.com
+Rodolphus Lestrange rodolphus@owlmail.com
+Gilderoy Lockhart therealgilderoylockhart@owlmail.com
+Alice Longbottom alongbottom@orderofthephoenix.org
+Frank Longbottom flongbottom@orderofthephoenix.org
+Augusta Longbottom alongbottom@owlmail.com
+Neville Longbottom nlongbottom@gryffindor.hogwarts.edu
+Luna Lovegood llovegood@ravenclaw.hogwarts.edu
+Xenophilius Lovegood xlovegood@thequibbler.com
+Remus Lupin rlupin@orderofthephoenix.org
+Walden Macnair wmacnair@owlmail.com
+Draco Malfoy dmalfoy@slytherin.hogwarts.edu
+Lucius Malfoy lmalfoy@owlmail.com
+Narcissa Malfoy nmalfoy@owlmail.com
+Madam Malkin mmalkin@diagonalley.com
+Griselda Marchbanks gmarchbanks@ministryofmagic.gov
+Olympe Maxime omaxime@beauxbatons.edu
+Ernie Macmillan emacmillan@hufflepuff.hogwarts.edu
+Minerva McGonagall mmcgonagall@hogwarts.edu
+Cormac McLaggen cmclaggen@gryffindor.hogwarts.edu
+Graham Montague gmontague@slytherin.hogwarts.edu
+Alastor Moody amoody@orderofthephoenix.org
+Theodore Nott tnott@slytherin.hogwarts.edu
+Bob Ogden bogden@ministryofmagic.gov
+Garrick Ollivander gollivander@diagonalley.com
+Pansy Parkinson pparkinson@slytherin.hogwarts.edu
+Padma Patil ppatil@ravenclaw.hogwarts.edu
+Parvati Patil ppatil@gryffindor.hogwarts.edu
+Peter Pettigrew wormtail@owlmail.com
+Antioch Peverell apeverell@thedeathlyhallows.com
+Cadmus Peverell cpeverell@thedeathlyhallows.com
+Ignotus Peverell ipeverell@thedeathlyhallows.com
+Irma Pince ipince@hogwarts.edu
+Sturgis Podmore spodmore@orderofthephoenix.org
+Poppy Pomfrey ppomfrey@hogwarts.edu
+Harry Potter hpotter@gryffindor.hogwarts.edu
+James Potter jpotter@orderofthephoenix.org
+Lily Potter lpotter@orderofthephoenix.org
+Albus Potter apotter@owlmail.com
+Quirinus Quirrell qquirrell@hogwarts.edu
+Helena Ravenclaw hravenclaw@owlmail.com
+Rowena Ravenclaw rravenclaw@hogwarts.edu
+Tom Riddle triddle@slytherin.hogwarts.edu
+Demelza Robins drobins@gryffindor.hogwarts.edu
+Augustus Rookwood arookwood@ministryofmagic.gov
+Thorfinn Rowle trowle@owlmail.com
+Albert Runcorn aruncorn@ministryofmagic.gov
+Newt Scamander nscamander@fantasticbeasts.com
+Rufus Scrimgeour rscrimgeour@ministryofmagic.gov
+Kingsley Shacklebolt kshacklebolt@ministryofmagic.gov
+Stan Shunpike sshunpike@knightbus.com
+Aurora Sinistra asinistra@hogwarts.edu
+Rita Skeeter rskeeter@dailyprophet.com
+Horace Slughorn hslughorn@hogwarts.edu
+Salazar Slytherin sslytherin@hogwarts.edu
+Hepzibah Smith hepzibah@owlmail.com
+Zacharias Smith zsmith@hufflepuff.hogwarts.edu
+Severus Snape ssnape@hogwarts.edu
+Alicia Spinnet aspinnet@gryffindor.hogwarts.edu
+Pomona Sprout psprout@hogwarts.edu
+Pius Thicknesse pthicknesse@ministryofmagic.gov
+Dean Thomas dthomas@gryffindor.hogwarts.edu
+Andromeda Tonks atonks@owlmail.com
+Nymphadora Tonks ntonks@orderofthephoenix.org
+Ted Tonks ttonks@owlmail.com
+Sybill Trelawney strewlawney@hogwarts.edu
+Wilkie Twycross wtwycross@ministryofmagic.gov
+Dolores Umbridge dumbridge@ministryofmagic.gov
+Emmeline Vance evance@orderofthephoenix.gov
+Romilda Vane rvane@gryffindor.hogwarts.edu
+Septima Vector svector@hogwarts.edu
+Lord Voldemort lordvoldemort@owlmail.com
+Moaning Myrtle mwarren@ravenclaw.hogwarts.edu
+Arthur Weasley aweasley@ministryofmagic.gov
+Bill Weasley bweasley@gringotts.com
+Charlie Weasley cweasley@orderofthephoenix.org
+Fred Weasley fweasley@weasleyswizardwheezes.com
+George Weasley gweasley@weasleyswizardwheezes.com
+Ginny Weasley gweasley@gryffindor.hogwarts.edu
+Molly Weasley mweasley@orderofthephoenix.org
+Percy Weasley pweasley@ministryofmagic.gov
+Ron Weasley rweasley@gryffindor.hogwarts.edu
+Oliver Wood owood@gryffindor.hogwarts.edu
+Corban Yaxley cyaxley@owlmail.com
+Blaise Zabini bzabini@slytherin.hogwarts.edu
