@@ -18,9 +18,10 @@ for line in guests:
 	firstName = guestTokens[0]
 	lastName = guestTokens[1]
 	email = guestTokens[2]
+	email = email[:len(email) - 1]
 	fullPhone = str(countryCode) + str(areaCode) + str(phoneNum)
 	insert = "INSERT INTO GUEST VALUES("
-	insert += "'" + firstName + " " + lastName + "', '" + str(ccNum) + "', " + "'" + fullPhone + "', " + "'" + address + "');"
+	insert += "'" + email + "', " + "'" + firstName + " " + lastName + "', '" + str(ccNum) + "', " + "'" + fullPhone + "', " + "'" + address + "');"
 	ccNum += randrange(1,101) * 42701
 	areaCode += randrange(0,16)
 	phoneNum += randrange(1,10)
