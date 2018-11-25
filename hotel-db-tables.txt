@@ -45,11 +45,11 @@ CREATE TABLE GUEST_ROOM
 (Room_Num INT NOT NULL,
 Num_beds INT NOT NULL,
 Bed_type VARCHAR(50),
-Smoking_status VARCHAR(5),
+Smoking_status TINYINT DEFAULT 0,
 primary key(Room_num),
 CONSTRAINT roomNo_range CHECK (Room_Num BETWEEN 1 and 999),
-CONSTRAINT bedType CHECK (Bed_type IN('King','Queen','Twin','Full'),
-CONSTRAINT Smoking_status CHECK (Smoking_status IN('s', 'n/s'));
+CONSTRAINT bedType CHECK (Bed_type IN('King','Queen','Twin','Full')),
+CONSTRAINT Smoking_status CHECK (Smoking_status = 0 OR Smoking_status = 1));
 
 CREATE TABLE CONFERENCE_ROOM 
 (CR_Number VARCHAR(3) NOT NULL,
