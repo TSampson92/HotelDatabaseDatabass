@@ -40,7 +40,6 @@ FOREIGN KEY(DEP_ID) REFERENCES DEPARTMENT(DEP_ID),
 FOREIGN KEY(Room_Num) REFERENCES GUEST_ROOM(Room_num),
 FOREIGN KEY(Room_Num) REFERENCES CONFERENCE_ROOM(CR_Number));
 
-
 CREATE TABLE GUEST_ROOM
 (Room_Num INT NOT NULL,
 Num_beds INT NOT NULL,
@@ -72,7 +71,6 @@ FOREIGN KEY(Room_Number) REFERENCES GUEST_ROOM(Room_Num) ,
 FOREIGN KEY(G_Email) REFERENCES GUEST(Email)ON DELETE CASCADE,
 CONSTRAINT date_order CHECK (Start_date < End_Date));
 
-
 CREATE TABLE MEMBERSHIP 
 (G_email VARCHAR(50) NOT NULL,
 G_name VARCHAR(50) NOT NULL,
@@ -82,25 +80,3 @@ member_since DATE,
 primary key (member_ID),
 FOREIGN KEY(G_email,G_name) REFERENCES GUEST(Email,G_name),
 CONSTRAINT member_status CHECK (member_status IN('Gold', 'Silver', 'Bronze')); 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
