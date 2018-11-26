@@ -66,13 +66,13 @@ FOREIGN KEY(C_Room_Num) REFERENCES CONFERENCE_ROOM(CR_Number));
 
 CREATE TABLE IF NOT EXISTS GUEST_RESERVATION 
 (G_Reservation_ID VARCHAR(10) NOT NULL,
-G_Email VARCHAR(30) NOT NULL,
 G_Name VARCHAR(30) NOT NULL,
 Room_Number INT NOT NULL,
 Number_Of_Guests INT DEFAULT 1,
 Start_date DATE NOT NULL,
 End_Date DATE NOT NULL,
-primary key(G_Reservation_ID,G_Email,G_Name,Room_Number),
+G_Email VARCHAR(30) NOT NULL,
+primary key(G_Reservation_ID,G_Name,Room_Number,G_email),
 CONSTRAINT email_ch CHECK (G_email LIKE '%__@__%.__%'),
 FOREIGN KEY(G_Email,G_Name) REFERENCES GUEST(Email,G_Name) ON DELETE CASCADE,
 FOREIGN KEY(Room_Number) REFERENCES GUEST_ROOM(Room_Num),
@@ -80,13 +80,13 @@ CONSTRAINT date_order CHECK (Start_date < End_Date));
 
 CREATE TABLE IF NOT EXISTS CONFERENCE_RESERVATION
 (C_Reservation_ID VARCHAR(10) NOT NULL,
-G_Email VARCHAR(30) NOT NULL,
 G_Name VARCHAR(30) NOT NULL,
 Room_Number VARCHAR(3) NOT NULL,
 Number_Of_Guests INT DEFAULT 1,
 Start_date DATE NOT NULL,
 End_Date DATE NOT NULL,
-primary key(C_Reservation_ID,G_Email,G_Name,Room_Number),
+G_Email VARCHAR(30) NOT NULL,
+primary key(C_Reservation_ID,G_Name,Room_Number,G_email),
 CONSTRAINT email_ch CHECK (G_email LIKE '%__@__%.__%'),
 FOREIGN KEY(G_Email,G_Name) REFERENCES GUEST(Email,G_Name) ON DELETE CASCADE,
 FOREIGN KEY(Room_Number) REFERENCES CONFERENCE_ROOM(CR_Number),
