@@ -79,7 +79,7 @@ G_name VARCHAR(50) NOT NULL,
 member_ID VARCHAR(9) NOT NULL,
 member_status VARCHAR(10) DEFAULT 'Bronze',
 member_since DATE,
-primary key G_email,G_name,member_ID),
+primary key (member_ID),
 FOREIGN KEY(G_email,G_name) REFERENCES GUEST(Email,G_name),
 CONSTRAINT member_status CHECK (member_status IN('Gold', 'Silver', 'Bronze')); 
 

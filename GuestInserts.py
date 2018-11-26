@@ -11,7 +11,7 @@ countryCode = 1
 areaCode = 111
 phoneNum = 1111111
 streetNum = 1
-streets = ("Diagon Alley", "Godric's Hollow", "Godric's Hollow", "Knockturn Alley", "Hogsmeade", "Privet Drive, Little Whinging, Surrey")
+streets = ("Diagon Alley, London, UK 54471", "Potter Lane Godric's Hollow, UK 67712", "Grimmauld Place London, UK 54472", "Knockturn Alley London, UK 54471", "Wizarding Way Hogsmeade, Uk 99102", "Privet Drive, Little Whinging, Surrey, 77192")
 for line in guests:
 	guestTokens = line.split(" ")
 	address = str(streetNum) + " " + streets[randrange(6)]  
