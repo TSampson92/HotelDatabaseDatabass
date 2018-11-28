@@ -102,3 +102,17 @@ Member_since DATE,
 primary key (member_ID),
 FOREIGN KEY(G_email,G_name) REFERENCES GUEST(Email,G_name),
 CONSTRAINT member_status CHECK (member_status IN('Gold', 'Silver', 'Bronze'))); 
+
+CREATE TRIGGER Incr_empl_count
+AFTER INSERT ON EMPLOYEE
+FOR EACH ROW
+UPDATE DEPARTMENT
+SET Num_employees = 1 + Num_employees
+WHERE NEW.Dep_ID = DEPARTMENT.Dep_ID;
+
+CREATE TRIGGER Decr_empl_count
+BEFORE DELETE ON EMPLOYEE
+FOR EACH ROW
+UPDATE DEPARTMENT
+SET Num_employees = Num_employees - 1
+WHERE OLD.Dep_ID = DEPARTMENT.Dep_ID;
